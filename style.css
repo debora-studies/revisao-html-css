@@ -1,0 +1,191 @@
+body {
+  background-color: yellow;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+  margin: 50px 25px;
+}
+
+h1 {
+  border: 10px solid green;
+  margin: 20px;
+}
+
+p {
+  border: 4px dotted blue;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  margin: 25px;
+}
+
+.paragraphs {
+  font-size: 50px;
+}
+
+.text-one {
+  color: blue;
+}
+
+.text-two {
+  font-style: Courier;
+}
+
+.text-three {
+  text-align: center;
+}
+
+.link-html {
+  text-decoration: none;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tables {
+  margin: 50px auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;  
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+
+.table-one {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.table-two {
+  height: 100px;;
+}
+
+p {
+  color: red;
+}
+
+#para2 {
+  text-align: center;
+}
+
+.grande {
+  font-size: 30px;
+}
+
+.div-margin {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.p1 {
+  padding-top: 30px;
+}
+
+.p2 {
+  padding: 15px;
+}
+
+.p3 {
+  padding: 10px 30px;
+}
+
+a {
+  color: green;
+  
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+  background-color: rgba(155, 155, 255, 0.603);
+}
+
+a:visited {
+  color: blue;
+  text-decoration: none;
+  background-color: rgba(155, 155, 255, 0.603);
+
+}
+
+a:hover, a:active {
+ text-decoration: solid;
+ background-color: yellowgreen;
+}
+
+.bt {
+  width: 200px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.bt1:hover {
+  background-color: rgb(252, 7, 252);
+  transition: all 0.5s;
+  color: #fff;
+}
+
+.bt2:hover {
+  border-radius: 3px 15px;
+  background-color: aqua;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.bt3:hover {
+  background-color: rgb(255, 93, 93);
+  color: #fff;
+  transition: all 0.5s;
+  box-shadow: 5px 10px #000;
+}
